@@ -1,0 +1,196 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--text);
+  background-color: var(--white-background);
+}
+
+:root {
+  --primary-brand: #4D5AE5;
+  --pressed-state: #404BBF;
+  --dark: #2E2F42;
+  --success: #31D0AA;
+  --text: #434455;
+  --subtle-text: #8E8F99;
+  --accent: #E7E9FC;
+  --light: #F4F4FD;
+  --modal-overlay: #2E2F42;
+  --hero-background: #2E2F42;
+  --white-background: #ffffff;
+  --modal-background: #FCFCFC;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+.logo-in-header {
+  color: var(--primary-brand);
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.filter-btn:hover {
+  color: var(--white-background);
+  background-color: var(--pressed-state);
+}
+
+.filter-btn:focus {
+  color: var(--white-background);
+  background-color: var(--pressed-state);
+}
+
+.filter-btn {
+  color: var(--primary-brand);
+  background-color: var(--light);
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+.address {
+  font-style: normal;
+}
+
+.address-items {
+  color: var(--text);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.address-items:hover,
+.address-items:focus {
+  color: #404bbf;
+}
+
+.footer {
+  background-color: #2e2f42;
+}
+
+.logo-in-footer {
+  color: var(--primary-brand);
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.studio-footer {
+  color: #f4f4fd;
+}
+
+.studio-header {
+  color: #2E2F42;
+}
+
+.order-service {
+  color: var(--white-background);
+  background-color: var(--primary-brand);
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+.order-service:hover {
+  background-color: var(--pressed-state);
+}
+
+.order-service:focus {
+  background-color: var(--pressed-state);
+}
+
+.menu {
+  color: var(--dark);
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.menu:hover {
+  color: var(--pressed-state);
+}
+
+.menu:focus {
+  color: var(--pressed-state);
+}
+
+.studio-btn:hover {
+  color: var(--pressed-state);
+}
+
+.studio-btn:focus {
+  color: #404bbf;
+}
+
+.hero-title {
+  color: var(--white-background);
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.heading-title {
+  color: var(--dark);
+  font-family: inherit;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.section-title {
+  color: var(--dark);
+  font-family: inherit;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.members {
+  background-color: var(--light);
+}
+
+.feature {
+  color: var(--text);
+  font-family: inherit;
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+}
+
+.footer-text {
+  color: var(--light);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.background-section {
+  background-color: var(--white-background);
+}
