@@ -122,6 +122,7 @@ img {
 
 .section-two-list {
   display: flex;
+  gap: 24px;
 }
 
 .logo-in-footer {
