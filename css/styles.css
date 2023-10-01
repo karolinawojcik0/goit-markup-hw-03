@@ -144,6 +144,9 @@ img {
   letter-spacing: 0.04em;
   cursor: pointer;
   display: block;
+  min-width: 169px;
+  height: 56px;
+
 }
 
 .order-service:hover {
