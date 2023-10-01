@@ -302,6 +302,7 @@ img {
 }
 
 .buttons {
+  display: flex;
   justify-content: center;
   gap: 24px;
   margin-bottom: 72px;
