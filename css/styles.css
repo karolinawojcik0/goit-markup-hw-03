@@ -125,6 +125,50 @@ img {
   padding: 188px 0 188px;
 }
 
+.hero-section {
+  background-color: var(--modal-overlay);
+  padding: 188px 0 188px;
+}
+
+.hero-title {
+  color: var(--white-background);
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  max-width: 496px;
+}
+
+.order-service {
+  color: var(--white-background);
+  background-color: var(--primary-brand);
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
+}
+
+.order-service:hover,
+.order-service:focus {
+  background-color: var(--pressed-state);
+}
+
+.section-two {
+  padding: 120px 0 120px;
+}
+
+.section-two-list {
+  display: flex;
+  gap: 24px;
+}
 
 .filter-btn:hover,
 .filter-btn:focus {
@@ -152,19 +196,6 @@ img {
   padding: 100px 0 100px;
 }
 
-.hero-section {
-  background-color: var(--modal-overlay);
-  padding: 188px 0 188px;
-}
-
-.section-two {
-  padding: 120px 0 120px;
-}
-
-.section-two-list {
-  display: flex;
-  gap: 24px;
-}
 
 .logo-in-footer {
   color: var(--primary-brand);
@@ -183,32 +214,6 @@ img {
 }
 
 
-.order-service {
-  color: var(--white-background);
-  background-color: var(--primary-brand);
-  font-family: inherit;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  cursor: pointer;
-  display: block;
-  min-width: 169px;
-  height: 56px;
-  border: none;
-  border-radius: 4px;
-
-}
-
-.order-service:hover {
-  background-color: var(--pressed-state);
-}
-
-.order-service:focus {
-  background-color: var(--pressed-state);
-}
-
-
 .menu-text:hover {
   color: var(--pressed-state);
 }
@@ -223,16 +228,6 @@ img {
 
 .studio-btn:focus {
   color: #404bbf;
-}
-
-.hero-title {
-  color: var(--white-background);
-  font-size: 56px;
-  font-weight: 700;
-  line-height: 1.07;
-  letter-spacing: 0.02em;
-  text-align: center;
-  max-width: 496px;
 }
 
 .heading-title {
