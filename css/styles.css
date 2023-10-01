@@ -86,11 +86,13 @@ img {
 .filter-btn:hover {
   color: var(--white-background);
   background-color: var(--pressed-state);
+  border: 1px solid transparent;
 }
 
 .filter-btn:focus {
   color: var(--white-background);
   background-color: var(--pressed-state);
+  border: 1px solid transparent;
 }
 
 .filter-btn {
@@ -102,6 +104,9 @@ img {
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
+  padding: 12px 24px 12px;
+  border: 1px solid var(--accent);
+  border-radius: 4px;
 }
 
 .address {
