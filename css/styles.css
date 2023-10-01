@@ -82,12 +82,7 @@ img {
   margin-right: 76px;
 }
 
-.filter-btn:hover {
-  color: var(--white-background);
-  background-color: var(--pressed-state);
-  border: 1px solid transparent;
-}
-
+.filter-btn:hover,
 .filter-btn:focus {
   color: var(--white-background);
   background-color: var(--pressed-state);
