@@ -279,5 +279,5 @@ img {
 }
 
 .list-point-width_three {
-  lub flex-basis: calc((100% - 3 * 16px) / 3)
+  flex-basis: calc((100% - 3 * 16px) / 3)
 }
