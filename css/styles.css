@@ -265,6 +265,7 @@ img {
 
 .background-section {
   background-color: var(--white-background);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .employee {
