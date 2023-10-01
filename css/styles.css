@@ -271,3 +271,7 @@ img {
 .employee {
   padding: 32px 16px;
 }
+
+.images-only {
+  width: calc((100% - 48px) / 3)
+}
