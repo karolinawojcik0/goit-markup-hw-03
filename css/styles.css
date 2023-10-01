@@ -254,8 +254,6 @@ img {
   font-size: 16px;
   letter-spacing: 0.02em;
   text-align: center;
-
-
 }
 
 .footer-text {
@@ -278,4 +276,8 @@ img {
 
 .images-only {
   width: calc((100% - 48px)/3)
+}
+
+.list-point-width_two {
+  flex-basis: calc((100% - 72px) / 4)
 }
