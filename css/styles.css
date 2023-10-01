@@ -284,11 +284,11 @@ img {
 }
 
 .list-point-width_two {
-  flex-basis: calc((100% - 72px) / 4)
+  flex-basis: calc((100% - 72px) / 4);
 }
 
 .list-point-width_three {
-  flex-basis: calc((100% - 3 * 16px) / 3)
+  flex-basis: calc((100% - 3 * 16px) / 3);
 }
 
 .portfolio-main {
