@@ -221,6 +221,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   margin-bottom: 8px;
+  text-align: center;
 
 }
 
@@ -249,6 +250,9 @@ img {
   line-height: 1.5;
   font-size: 16px;
   letter-spacing: 0.02em;
+  text-align: center;
+
+
 }
 
 .footer-text {
