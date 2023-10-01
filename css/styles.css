@@ -23,6 +23,10 @@ body {
   box-sizing: border-box;
 }
 
+.div-container {
+  display: flex;
+}
+
 img {
   display: block;
 }
@@ -33,6 +37,10 @@ img {
 
 .list {
   list-style: none;
+}
+
+.header {
+  border-bottom: 1px solid var(--accent);
 }
 
 .logo-in-header {
