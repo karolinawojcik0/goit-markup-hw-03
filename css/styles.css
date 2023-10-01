@@ -23,6 +23,7 @@ body {
   box-sizing: border-box;
 }
 
+
 .container {
   width: 1158px;
   margin: 0 auto;
@@ -293,4 +294,10 @@ img {
 
 .portfolio-main {
   padding: 96px 0 120px 0;
+}
+
+.buttons {
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
 }
