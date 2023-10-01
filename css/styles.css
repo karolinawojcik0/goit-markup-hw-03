@@ -238,6 +238,7 @@ img {
 
 .members {
   background-color: var(--light);
+  margin-bottom: 72px;
 }
 
 .feature {
