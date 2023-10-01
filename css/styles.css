@@ -290,3 +290,7 @@ img {
 .list-point-width_three {
   flex-basis: calc((100% - 3 * 16px) / 3)
 }
+
+.portfolio-main {
+  padding: 96px 0 120px 0;
+}
