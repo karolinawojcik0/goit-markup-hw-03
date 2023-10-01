@@ -211,6 +211,11 @@ img {
   margin-bottom: 72px;
 }
 
+.background-section {
+  background-color: var(--white-background);
+  border-radius: 0px 0px 4px 4px;
+}
+
 .filter-btn:hover,
 .filter-btn:focus {
   color: var(--white-background);
@@ -283,11 +288,6 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   max-width: 264px;
-}
-
-.background-section {
-  background-color: var(--white-background);
-  border-radius: 0px 0px 4px 4px;
 }
 
 .employee {
