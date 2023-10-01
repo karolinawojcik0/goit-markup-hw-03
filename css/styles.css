@@ -120,6 +120,10 @@ img {
   padding: 120px 0 120px;
 }
 
+.section-two-list {
+  display: flex;
+}
+
 .logo-in-footer {
   color: var(--primary-brand);
   font-family: "Raleway", sans-serif;
