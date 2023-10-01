@@ -170,8 +170,8 @@ img {
   gap: 24px;
 }
 
-.list-point-width_two {
-  width: calc((100% - 3 * 24px) / 4)
+.value {
+  width: calc((100% - 3 * 24px) / 4);
 }
 
 .list-point-width_three {
