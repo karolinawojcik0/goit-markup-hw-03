@@ -145,20 +145,24 @@ img {
 }
 
 .menu {
+  display: flex;
+  gap: 40px;
+}
+
+.menu-text {
   color: var(--dark);
   font-family: inherit;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  display: flex;
 }
 
-.menu:hover {
+.menu-text:hover {
   color: var(--pressed-state);
 }
 
-.menu:focus {
+.menu-text:focus {
   color: var(--pressed-state);
 }
 
