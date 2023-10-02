@@ -118,7 +118,8 @@ ol {
 
 .address {
   font-style: normal;
-  text-align: right;
+  justify-content: flex-start;
+
 }
 
 .address-items {
@@ -140,10 +141,6 @@ ol {
   padding: 188px 0;
   display: flex;
   text-align: center;
-  max width: 1440px;
-  justify-content: center;
-  align-items: center;
-  margin: auto;
 }
 
 .hero-title {
@@ -153,10 +150,8 @@ ol {
   line-height: 1.07;
   letter-spacing: 0.02em;
   max-width: 496px;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
 }
+
 
 .order-service {
   color: var(--white-background);
