@@ -70,7 +70,7 @@ ol {
 /*INDEX*/
 
 .header {
-  height: 72px;
+
   border-bottom: 1px solid var(--accent);
 }
 
@@ -132,13 +132,12 @@ ol {
   color: var(--pressed-state);
 }
 
-.main {
-  padding: 188px 0 188px;
-}
+.main {}
 
 .hero-section {
   background-color: var(--modal-overlay);
   padding: 188px 0 188px;
+  text-align: center;
 }
 
 .hero-title {
@@ -160,8 +159,10 @@ ol {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
+
   cursor: pointer;
-  display: block;
+  display: inline-flex;
+  align-items: flex-start;
   padding: 16px 32px;
   min-width: 169px;
   height: 56px;
@@ -293,7 +294,6 @@ ol {
 .members {
   height: 732px;
   background-color: var(--light);
-  margin-bottom: 72px;
 }
 
 .footer-text {
