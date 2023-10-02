@@ -172,7 +172,7 @@ img {
 }
 
 .value {
-  flex-basis: calc((100% - 3 * 24px) / 3);
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .list-point-width_three {
