@@ -116,7 +116,6 @@ ol {
 
 .address {
   font-style: normal;
-  padding right: 156px 24px;
 }
 
 .address-items {
@@ -141,7 +140,7 @@ ol {
 
 .hero-title {
   color: var(--white-background);
-  text-align: center;
+
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
