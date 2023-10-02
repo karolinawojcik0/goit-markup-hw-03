@@ -128,7 +128,7 @@ ol {
   gap: 40px;
 }
 
-.address-items {
+.contact {
   color: var(--text);
   font-size: 16px;
   font-weight: 400;
@@ -138,8 +138,8 @@ ol {
 }
 
 
-.address-items:hover,
-.address-items:focus {
+.contact:hover,
+.contact:focus {
   color: var(--pressed-state);
 }
 
