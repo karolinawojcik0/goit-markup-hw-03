@@ -187,7 +187,12 @@ ol {
 }
 
 .section {
-  padding: 120px 0;
+  padding: 120px 0 120px;
+}
+
+.section-two {
+  padding-top: 120px;
+  padding-bottom: 0;
 }
 
 .section-two-list {
@@ -233,6 +238,7 @@ ol {
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
+
   margin-bottom: 72px;
 }
 
